@@ -1,0 +1,167 @@
+Last login: Wed Dec 29 17:39:16 on ttys032
+tanvipedireddi@Tanvis-MBP ~ % pwd
+/Users/tanvipedireddi
+tanvipedireddi@Tanvis-MBP ~ % cd test parent
+cd: string not in pwd: test
+tanvipedireddi@Tanvis-MBP ~ % ls
+Applications		Pictures		english:writing
+Creative Cloud Files	Projects		ftc
+Desktop			Public			graphics
+Documents		apcs			install.sh
+Downloads		apcs_old		misc
+Library			coding			myworkspace
+Movies			cosmic climate		nltk_data
+Music			debate			past school projects
+NLTK.ipynb		eclipse			school
+OneDrive		edits			test parent
+tanvipedireddi@Tanvis-MBP ~ % cd testparent 
+cd: no such file or directory: testparent
+tanvipedireddi@Tanvis-MBP ~ % cd test_parent
+tanvipedireddi@Tanvis-MBP test_parent % git clone git@github.com:tanvi123123/test.git
+Cloning into 'test'...
+warning: You appear to have cloned an empty repository.
+tanvipedireddi@Tanvis-MBP test_parent % git status
+fatal: not a git repository (or any of the parent directories): .git
+tanvipedireddi@Tanvis-MBP test_parent % pwd                                    
+/Users/tanvipedireddi/test_parent
+tanvipedireddi@Tanvis-MBP test_parent % git init                               
+hint: Using 'master' as the name for the initial branch. This default branch name
+hint: is subject to change. To configure the initial branch name to use in all
+hint: of your new repositories, which will suppress this warning, call:
+hint: 
+hint: 	git config --global init.defaultBranch <name>
+hint: 
+hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+hint: 'development'. The just-created branch can be renamed via this command:
+hint: 
+hint: 	git branch -m <name>
+Initialized empty Git repository in /Users/tanvipedireddi/test_parent/.git/
+tanvipedireddi@Tanvis-MBP test_parent % git clone git@github.com:tanvi123123/test.git
+fatal: destination path 'test' already exists and is not an empty directory.
+tanvipedireddi@Tanvis-MBP test_parent % git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	test/
+
+nothing added to commit but untracked files present (use "git add" to track)
+tanvipedireddi@Tanvis-MBP test_parent % git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	test/
+
+nothing added to commit but untracked files present (use "git add" to track)
+tanvipedireddi@Tanvis-MBP test_parent % git add .
+error: 'test/' does not have a commit checked out
+fatal: adding files failed
+tanvipedireddi@Tanvis-MBP test_parent % pwd
+/Users/tanvipedireddi/test_parent
+tanvipedireddi@Tanvis-MBP test_parent % git clone git@github.com:tanvi123123/test.git
+Cloning into 'test'...
+warning: You appear to have cloned an empty repository.
+tanvipedireddi@Tanvis-MBP test_parent % git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	.DS_Store
+	test/
+
+nothing added to commit but untracked files present (use "git add" to track)
+tanvipedireddi@Tanvis-MBP test_parent % git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	.DS_Store
+	test/
+
+nothing added to commit but untracked files present (use "git add" to track)
+tanvipedireddi@Tanvis-MBP test_parent % git add .
+error: 'test/' does not have a commit checked out
+fatal: adding files failed
+tanvipedireddi@Tanvis-MBP test_parent % git clone git@github.com:tanvi123123/test.git
+Cloning into 'test'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Receiving objects: 100% (3/3), done.
+tanvipedireddi@Tanvis-MBP test_parent % git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	.DS_Store
+	test/
+
+nothing added to commit but untracked files present (use "git add" to track)
+tanvipedireddi@Tanvis-MBP test_parent % git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	.DS_Store
+	test/
+
+nothing added to commit but untracked files present (use "git add" to track)
+tanvipedireddi@Tanvis-MBP test_parent % pws
+zsh: command not found: pws
+tanvipedireddi@Tanvis-MBP test_parent % pwd
+/Users/tanvipedireddi/test_parent
+tanvipedireddi@Tanvis-MBP test_parent % cd test
+tanvipedireddi@Tanvis-MBP test % ls
+myFirstFile
+tanvipedireddi@Tanvis-MBP test % git init 
+Reinitialized existing Git repository in /Users/tanvipedireddi/test_parent/test/.git/
+tanvipedireddi@Tanvis-MBP test % git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+tanvipedireddi@Tanvis-MBP test % pwd 
+/Users/tanvipedireddi/test_parent/test
+tanvipedireddi@Tanvis-MBP test % ls
+myFirstFile
+tanvipedireddi@Tanvis-MBP test % ls
+myFirstFile
+tanvipedireddi@Tanvis-MBP test % vi
+
+my second file
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+E32: No file name
